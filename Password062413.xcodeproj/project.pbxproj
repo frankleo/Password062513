@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1F199E817790F9E00338A9F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1F199E717790F9E00338A9F /* UIKit.framework */; };
+		E1F199EA17790F9E00338A9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1F199E917790F9E00338A9F /* Foundation.framework */; };
+		E1F199EC17790F9E00338A9F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1F199EB17790F9E00338A9F /* CoreGraphics.framework */; };
+		E1F199F217790F9E00338A9F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E1F199F017790F9E00338A9F /* InfoPlist.strings */; };
+		E1F199F417790F9E00338A9F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F199F317790F9E00338A9F /* main.m */; };
+		E1F199F817790F9E00338A9F /* QCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F199F717790F9E00338A9F /* QCAppDelegate.m */; };
+		E1F199FA17790F9E00338A9F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E1F199F917790F9E00338A9F /* Default.png */; };
+		E1F199FC17790F9E00338A9F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E1F199FB17790F9E00338A9F /* Default@2x.png */; };
+		E1F199FE17790F9E00338A9F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E1F199FD17790F9E00338A9F /* Default-568h@2x.png */; };
+		E1F19A0117790F9E00338A9F /* QCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F19A0017790F9E00338A9F /* QCViewController.m */; };
+		E1F19A0417790F9E00338A9F /* QCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1F19A0217790F9E00338A9F /* QCViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E1F199E417790F9E00338A9F /* Password062413.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Password062413.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1F199E717790F9E00338A9F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E1F199E917790F9E00338A9F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E1F199EB17790F9E00338A9F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E1F199EF17790F9E00338A9F /* Password062413-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Password062413-Info.plist"; sourceTree = "<group>"; };
+		E1F199F117790F9E00338A9F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E1F199F317790F9E00338A9F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E1F199F517790F9E00338A9F /* Password062413-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Password062413-Prefix.pch"; sourceTree = "<group>"; };
+		E1F199F617790F9E00338A9F /* QCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QCAppDelegate.h; sourceTree = "<group>"; };
+		E1F199F717790F9E00338A9F /* QCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QCAppDelegate.m; sourceTree = "<group>"; };
+		E1F199F917790F9E00338A9F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E1F199FB17790F9E00338A9F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		E1F199FD17790F9E00338A9F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E1F199FF17790F9E00338A9F /* QCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QCViewController.h; sourceTree = "<group>"; };
+		E1F19A0017790F9E00338A9F /* QCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QCViewController.m; sourceTree = "<group>"; };
+		E1F19A0317790F9E00338A9F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/QCViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1F199E117790F9E00338A9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1F199E817790F9E00338A9F /* UIKit.framework in Frameworks */,
+				E1F199EA17790F9E00338A9F /* Foundation.framework in Frameworks */,
+				E1F199EC17790F9E00338A9F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1F199DB17790F9E00338A9F = {
+			isa = PBXGroup;
+			children = (
+				E1F199ED17790F9E00338A9F /* Password062413 */,
+				E1F199E617790F9E00338A9F /* Frameworks */,
+				E1F199E517790F9E00338A9F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1F199E517790F9E00338A9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1F199E417790F9E00338A9F /* Password062413.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1F199E617790F9E00338A9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1F199E717790F9E00338A9F /* UIKit.framework */,
+				E1F199E917790F9E00338A9F /* Foundation.framework */,
+				E1F199EB17790F9E00338A9F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1F199ED17790F9E00338A9F /* Password062413 */ = {
+			isa = PBXGroup;
+			children = (
+				E1F199F617790F9E00338A9F /* QCAppDelegate.h */,
+				E1F199F717790F9E00338A9F /* QCAppDelegate.m */,
+				E1F199FF17790F9E00338A9F /* QCViewController.h */,
+				E1F19A0017790F9E00338A9F /* QCViewController.m */,
+				E1F19A0217790F9E00338A9F /* QCViewController.xib */,
+				E1F199EE17790F9E00338A9F /* Supporting Files */,
+			);
+			path = Password062413;
+			sourceTree = "<group>";
+		};
+		E1F199EE17790F9E00338A9F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1F199EF17790F9E00338A9F /* Password062413-Info.plist */,
+				E1F199F017790F9E00338A9F /* InfoPlist.strings */,
+				E1F199F317790F9E00338A9F /* main.m */,
+				E1F199F517790F9E00338A9F /* Password062413-Prefix.pch */,
+				E1F199F917790F9E00338A9F /* Default.png */,
+				E1F199FB17790F9E00338A9F /* Default@2x.png */,
+				E1F199FD17790F9E00338A9F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1F199E317790F9E00338A9F /* Password062413 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1F19A0717790F9E00338A9F /* Build configuration list for PBXNativeTarget "Password062413" */;
+			buildPhases = (
+				E1F199E017790F9E00338A9F /* Sources */,
+				E1F199E117790F9E00338A9F /* Frameworks */,
+				E1F199E217790F9E00338A9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Password062413;
+			productName = Password062413;
+			productReference = E1F199E417790F9E00338A9F /* Password062413.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1F199DC17790F9E00338A9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = QC;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Frank Rivera";
+			};
+			buildConfigurationList = E1F199DF17790F9E00338A9F /* Build configuration list for PBXProject "Password062413" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E1F199DB17790F9E00338A9F;
+			productRefGroup = E1F199E517790F9E00338A9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1F199E317790F9E00338A9F /* Password062413 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1F199E217790F9E00338A9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1F199F217790F9E00338A9F /* InfoPlist.strings in Resources */,
+				E1F199FA17790F9E00338A9F /* Default.png in Resources */,
+				E1F199FC17790F9E00338A9F /* Default@2x.png in Resources */,
+				E1F199FE17790F9E00338A9F /* Default-568h@2x.png in Resources */,
+				E1F19A0417790F9E00338A9F /* QCViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1F199E017790F9E00338A9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1F199F417790F9E00338A9F /* main.m in Sources */,
+				E1F199F817790F9E00338A9F /* QCAppDelegate.m in Sources */,
+				E1F19A0117790F9E00338A9F /* QCViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E1F199F017790F9E00338A9F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1F199F117790F9E00338A9F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E1F19A0217790F9E00338A9F /* QCViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1F19A0317790F9E00338A9F /* en */,
+			);
+			name = QCViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1F19A0517790F9E00338A9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E1F19A0617790F9E00338A9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1F19A0817790F9E00338A9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Password062413/Password062413-Prefix.pch";
+				INFOPLIST_FILE = "Password062413/Password062413-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E1F19A0917790F9E00338A9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Password062413/Password062413-Prefix.pch";
+				INFOPLIST_FILE = "Password062413/Password062413-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1F199DF17790F9E00338A9F /* Build configuration list for PBXProject "Password062413" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1F19A0517790F9E00338A9F /* Debug */,
+				E1F19A0617790F9E00338A9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1F19A0717790F9E00338A9F /* Build configuration list for PBXNativeTarget "Password062413" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1F19A0817790F9E00338A9F /* Debug */,
+				E1F19A0917790F9E00338A9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1F199DC17790F9E00338A9F /* Project object */;
+}

@@ -18,6 +18,10 @@
 		E1F199FE17790F9E00338A9F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E1F199FD17790F9E00338A9F /* Default-568h@2x.png */; };
 		E1F19A0117790F9E00338A9F /* QCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F19A0017790F9E00338A9F /* QCViewController.m */; };
 		E1F19A0417790F9E00338A9F /* QCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1F19A0217790F9E00338A9F /* QCViewController.xib */; };
+		E1F19A0E177914D000338A9F /* QCEditPassword.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F19A0C177914D000338A9F /* QCEditPassword.m */; };
+		E1F19A0F177914D000338A9F /* QCEditPassword.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1F19A0D177914D000338A9F /* QCEditPassword.xib */; };
+		E1F19A1617791DCA00338A9F /* QCPasswordItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F19A1417791DCA00338A9F /* QCPasswordItem.m */; };
+		E1F19A1717791DCA00338A9F /* QCPasswordItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1F19A1517791DCA00338A9F /* QCPasswordItem.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +41,12 @@
 		E1F199FF17790F9E00338A9F /* QCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QCViewController.h; sourceTree = "<group>"; };
 		E1F19A0017790F9E00338A9F /* QCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QCViewController.m; sourceTree = "<group>"; };
 		E1F19A0317790F9E00338A9F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/QCViewController.xib; sourceTree = "<group>"; };
+		E1F19A0B177914D000338A9F /* QCEditPassword.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCEditPassword.h; sourceTree = "<group>"; };
+		E1F19A0C177914D000338A9F /* QCEditPassword.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCEditPassword.m; sourceTree = "<group>"; };
+		E1F19A0D177914D000338A9F /* QCEditPassword.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QCEditPassword.xib; sourceTree = "<group>"; };
+		E1F19A1317791DCA00338A9F /* QCPasswordItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCPasswordItem.h; sourceTree = "<group>"; };
+		E1F19A1417791DCA00338A9F /* QCPasswordItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCPasswordItem.m; sourceTree = "<group>"; };
+		E1F19A1517791DCA00338A9F /* QCPasswordItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QCPasswordItem.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +93,10 @@
 		E1F199ED17790F9E00338A9F /* Password062413 */ = {
 			isa = PBXGroup;
 			children = (
-				E1F199F617790F9E00338A9F /* QCAppDelegate.h */,
-				E1F199F717790F9E00338A9F /* QCAppDelegate.m */,
-				E1F199FF17790F9E00338A9F /* QCViewController.h */,
-				E1F19A0017790F9E00338A9F /* QCViewController.m */,
-				E1F19A0217790F9E00338A9F /* QCViewController.xib */,
+				E1F19A121779193A00338A9F /* PasswordItem */,
+				E1F19A10177914DE00338A9F /* AddPassword */,
+				E1F19A11177914FF00338A9F /* Intilization */,
+				E1F19A0A1779148500338A9F /* EditPassword */,
 				E1F199EE17790F9E00338A9F /* Supporting Files */,
 			);
 			path = Password062413;
@@ -105,6 +114,45 @@
 				E1F199FD17790F9E00338A9F /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E1F19A0A1779148500338A9F /* EditPassword */ = {
+			isa = PBXGroup;
+			children = (
+				E1F19A0B177914D000338A9F /* QCEditPassword.h */,
+				E1F19A0C177914D000338A9F /* QCEditPassword.m */,
+				E1F19A0D177914D000338A9F /* QCEditPassword.xib */,
+			);
+			name = EditPassword;
+			sourceTree = "<group>";
+		};
+		E1F19A10177914DE00338A9F /* AddPassword */ = {
+			isa = PBXGroup;
+			children = (
+				E1F199FF17790F9E00338A9F /* QCViewController.h */,
+				E1F19A0017790F9E00338A9F /* QCViewController.m */,
+				E1F19A0217790F9E00338A9F /* QCViewController.xib */,
+			);
+			name = AddPassword;
+			sourceTree = "<group>";
+		};
+		E1F19A11177914FF00338A9F /* Intilization */ = {
+			isa = PBXGroup;
+			children = (
+				E1F199F617790F9E00338A9F /* QCAppDelegate.h */,
+				E1F199F717790F9E00338A9F /* QCAppDelegate.m */,
+			);
+			name = Intilization;
+			sourceTree = "<group>";
+		};
+		E1F19A121779193A00338A9F /* PasswordItem */ = {
+			isa = PBXGroup;
+			children = (
+				E1F19A1317791DCA00338A9F /* QCPasswordItem.h */,
+				E1F19A1417791DCA00338A9F /* QCPasswordItem.m */,
+				E1F19A1517791DCA00338A9F /* QCPasswordItem.xib */,
+			);
+			name = PasswordItem;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +212,8 @@
 				E1F199FC17790F9E00338A9F /* Default@2x.png in Resources */,
 				E1F199FE17790F9E00338A9F /* Default-568h@2x.png in Resources */,
 				E1F19A0417790F9E00338A9F /* QCViewController.xib in Resources */,
+				E1F19A0F177914D000338A9F /* QCEditPassword.xib in Resources */,
+				E1F19A1717791DCA00338A9F /* QCPasswordItem.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +227,8 @@
 				E1F199F417790F9E00338A9F /* main.m in Sources */,
 				E1F199F817790F9E00338A9F /* QCAppDelegate.m in Sources */,
 				E1F19A0117790F9E00338A9F /* QCViewController.m in Sources */,
+				E1F19A0E177914D000338A9F /* QCEditPassword.m in Sources */,
+				E1F19A1617791DCA00338A9F /* QCPasswordItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

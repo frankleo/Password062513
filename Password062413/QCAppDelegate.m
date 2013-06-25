@@ -10,14 +10,19 @@
 
 #import "QCViewController.h"
 
+#import "QCPasswordItem.h"
+
 @implementation QCAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.viewController = [[QCViewController alloc] initWithNibName:@"QCViewController" bundle:nil];
-    self.window.rootViewController = self.viewController;
+    QCViewController *addAccount = [[QCViewController alloc] initWithNibName:nil bundle:nil];
+//QCPasswordItem *viewAccount = [[QCPasswordItem alloc] initWithNibName:nil bundle:nil];
+    /* Add a UINavigationController which creates a special viewcontroller that manages our view hierarchy*/
+    UINavigationController *navigationController = [[UINavigationController alloc]initWithRootViewController:addAccount];
+    self.window.rootViewController = navigationController;
     [self.window makeKeyAndVisible];
     return YES;
 }
